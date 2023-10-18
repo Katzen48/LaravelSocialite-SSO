@@ -1,0 +1,27 @@
+{
+  "name": "katzen48/socialite-sso",
+  "description": "SSO OAuth2 Provider for Laravel Socialite",
+  "license": "MIT",
+  "keywords": [
+    "laravel",
+    "oauth",
+    "provider",
+    "socialite"
+  ],
+  "authors": [
+    {
+      "name": "Katzen48 | Tobi",
+      "email": "admin@katzen48.de"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "ext-json": "*",
+    "socialiteproviders/manager": "^4.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Katzen48\\Socialite\\SSO\\": ""
+    }
+  }
+}
